@@ -31,7 +31,7 @@ import java.io.InputStreamReader;
 
             System.out.println("Давайте посчитаем количество продуктов разного типа.");
             for (int i =0; i<20;i++) {
-                if (breakfast[i] != null) {
+                if (breakfast[i] != null)   {
 
                     if (breakfast[i].equals(CompM)) {
                         MilkType++;
